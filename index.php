@@ -1,4 +1,6 @@
 <?php
+	echo "<h1>Hello World!</h1>";
+
 	include 'config.php';
 	
 	try 
@@ -21,6 +23,4 @@
 	{
 		print($e->getMessage());
 	}	
-
-	echo "<h1>Hello World!</h1>";
 ?>
